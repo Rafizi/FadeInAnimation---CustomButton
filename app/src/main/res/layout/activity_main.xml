@@ -5,6 +5,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#000"
     tools:context="com.naufalrafizi.fadein.MainActivity">
 
     <ImageView
@@ -19,7 +20,7 @@
         android:layout_width="368dp"
         android:layout_height="48dp"
         android:onClick="startFadeIn"
-        android:background="@drawable/corner_button"
+        android:background="@drawable/gradiant"
         android:text="Fade In Animation"
         android:textAlignment="center"
         tools:layout_editor_absoluteY="8dp"
